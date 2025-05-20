@@ -18,7 +18,7 @@ if (!file_exists($arquivo)) {
     echo "Arquivo de dados não encontrado!";
     exit;
 }
-
+#aa
 $encontrado = false;
 
 if (($handle = fopen($arquivo, "r")) !== false) {
